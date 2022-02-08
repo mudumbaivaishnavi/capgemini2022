@@ -5,10 +5,10 @@ import java.util.*;
 import java.util.Map.Entry;
 
 
- class Country {
+ class CountryList {
 	private HashMap<String, String> M1;
 	
-	public Country() {
+	public CountryList() {
 		M1 = new HashMap<String, String>();
 	}
 	
