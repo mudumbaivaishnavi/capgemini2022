@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.Map.Entry;
 
 
-public class MapCapitalForTheCountryPassed {
+public class HashMapCapableOfStoringString {
 
 	public static void main(String[] args) {
 		Map<String, String> map = new HashMap<>();
