@@ -134,6 +134,6 @@ SELECT first_name, last_name, salary, department_id FROM employees WHERE salary 
 |         103 | Alexander   | Hunold      | AHUNOLD  | 590.423.4567       | 1987-06-20 | IT_PROG    |  9000.00 |           0.00 |        102 |            60 |
 |         104 | Bruce       | Ernst       | BERNST   | 590.423.4568       | 1987-06-21 | IT_PROG    |  6000.00 |           0.00 |        103 |            60 |
 |         105 | David       | Austin      | DAUSTIN  | 590.423.4569       | 1987-06-22 | IT_PROG    |  4800.00 |           0.00 |        103 |            60 |
-|         106 | Valli       | Pataballa   | VPATABAL | 590.423.4560       | 1987-06-23 | IT_PROG    |  4800.00 |  
+|         106 | Valli       | Pataballa   | VPATABAL | 590.423.4560       | 1987-06-23 | IT_PROG    |  4800.00 |           0.00 |        103 |            60 |
 Ans.
-SELECT first_name, last_name, hire_date FROM employees WHERE YEAR(hire_date)  LIKE '1987%';         0.00 |        103 |            60 |
+SELECT first_name, last_name, hire_date FROM employees WHERE YEAR(hire_date)  LIKE '1987%';
